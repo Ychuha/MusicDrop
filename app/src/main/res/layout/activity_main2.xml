@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/gray">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow_1"
+        android:backgroundTint="@color/gray">
+    </ImageButton>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_6cb88bd74ad376ba91a4d19b7f9a557_1"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true">
+    </ImageView>
+
+    <SeekBar
+        android:id="@+id/skbar"
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:progress="20"
+        android:progressBackgroundTint="@color/lightgray"
+        android:progressTint="@color/green"
+        android:thumbTint="@color/green"
+        android:max="300"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img"
+        android:layout_marginTop="40dp">
+    </SeekBar>
+
+    <ImageButton
+        android:id="@+id/pause"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:src="@drawable/component_2"
+        android:backgroundTint="@color/gray"
+        android:layout_below="@id/skbar"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="20dp">
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:src="@drawable/polygon_4"
+        android:backgroundTint="@color/gray"
+        android:layout_below="@id/skbar"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="20dp">
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/txtmusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MusicName"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+</RelativeLayout>

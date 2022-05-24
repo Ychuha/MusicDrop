@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/gray"/>
+    <item>
+        <bitmap android:src="@drawable/piano_keys_509a0dfcb9d54bc131b3b77f7a5781e9_1"
+            android:gravity="center"/>
+    </item>
+</layer-list>
