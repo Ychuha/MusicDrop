@@ -7,22 +7,52 @@
     tools:context=".MainActivity"
     android:background="@color/gray">
 
-    <SearchView
+    <EditText
         android:id="@+id/srch"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/white"
         android:layout_alignParentTop="true">
-    </SearchView>
+    </EditText>
 
     <ListView
-        android:id="@+id/myListView"
+        android:id="@+id/mylst"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="50dp"
-        android:layout_marginBottom="70dp"
         android:choiceMode="singleChoice"
         android:listSelector="@color/green">
     </ListView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@id/mylst"
+        android:background="@color/black">
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/play"
+            android:layout_gravity="end"/>
+
+        <TextView
+            android:id="@+id/musictxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"/>
+    </FrameLayout>
 
     </RelativeLayout>

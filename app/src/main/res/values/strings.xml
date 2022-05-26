@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">MusicApp</string>
-    <string name="MusicName">Morgenshtern</string>
+    <string name="app_name">MusicDrop</string>
     <string name="todo">TODO</string>
-    <string name="upload">upload</string>
 </resources>

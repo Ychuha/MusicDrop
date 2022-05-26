@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="340dp"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    android:gravity="center"
+    app:behavior_peekHeight="80dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/piano_keys_509a0dfcb9d54bc131b3b77f7a5781e9_1"
+            android:layout_centerHorizontal="true">
+        </ImageView>
+
+        <SeekBar
+            android:id="@+id/skbar"
+            android:layout_width="300dp"
+            android:layout_height="10dp"
+            android:progress="20"
+            android:progressBackgroundTint="@color/lightgray"
+            android:progressTint="@color/green"
+            android:thumbTint="@color/green"
+            android:max="300"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/img">
+        </SeekBar>
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/skbar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/play">
+        </ImageButton>
+
+
+        <TextView
+            android:id="@+id/txtmusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pause"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:text="@string/app_name">
+        </TextView>
+
+    </RelativeLayout>
+
+</LinearLayout>

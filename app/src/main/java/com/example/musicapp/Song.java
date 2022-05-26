@@ -3,10 +3,10 @@ package com.example.musicapp;
 public class Song {
     private String songName, songUrl;
 
-    public Song(){
+    public Song() {
     }
 
-    public Song(String songName, String songUrl){
+    public Song(String songName, String songUrl) {
         this.songName = songName;
         this.songUrl = songUrl;
     }

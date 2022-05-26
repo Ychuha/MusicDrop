@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/DaviL/AndroidStudioProjects/MusicApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/DaviL/AndroidStudioProjects/MusicApp/app/src/main/res/layout/activity_main2.xml" value="0.192481884057971" />
         <entry key="..\:/Users/DaviL/AndroidStudioProjects/MusicApp/app/src/main/res/menu/custom_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/LeraSh/AndroidStudioProjects/MusicApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/LeraSh/AndroidStudioProjects/MusicApp/app/src/main/res/layout/activity_main2.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/LeraSh/AndroidStudioProjects/MusicApp/app/src/main/res/layout/bottom_sheet.xml" value="0.276268115942029" />
         <entry key="..\:/Users/mobil/AndroidStudioProjects/MusicApp/app/src/main/res/drawable-v23/musicbtn.xml" value="0.3828125" />
         <entry key="..\:/Users/mobil/AndroidStudioProjects/MusicApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
         <entry key="..\:/Users/mobil/AndroidStudioProjects/MusicApp/app/src/main/res/drawable/mcbtn.xml" value="0.3828125" />
